@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dscf",
+  "version": "${version}",
+  "name": "DebugScreenClassFinder",
+  "description": "Debug tool.",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/DebugScreenClassFinder"
+  },
+  "license": "MIT",
+  "icon": "assets/dscf/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.dscf.DebugScreenClassFinder"
+    ]
+  },
+  "mixins": [
+    "dscf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
